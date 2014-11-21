@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ClientSocket">
+      <UniqueIdentifier>{50b11fe1-d9bf-466d-b645-eb3ade9263cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelManager">
+      <UniqueIdentifier>{8ad461d3-7aae-4e7d-b05d-09f850097b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FunctionManager">
+      <UniqueIdentifier>{363831df-9864-4dad-8a60-addfa980580a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelManager.h">
+      <Filter>KernelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>KernelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdManager.h">
+      <Filter>FunctionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>FunctionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>FunctionManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NinthClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelManager.cpp">
+      <Filter>KernelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.cpp">
+      <Filter>KernelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdManager.cpp">
+      <Filter>FunctionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>FunctionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>FunctionManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
